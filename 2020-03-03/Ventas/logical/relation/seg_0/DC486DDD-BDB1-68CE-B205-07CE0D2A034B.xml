@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="proveedor_producto" directorySegmentName="seg_0" id="DC486DDD-BDB1-68CE-B205-07CE0D2A034B">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:58:31 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
+</engineerTo>
+<sourcePk>95216E4E-7F81-A764-0EA8-C2864C846EF4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F2FB8D47-D1C9-5406-00B5-CD49E98B042A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA88EBBA-67CA-757D-D2D2-3A73D9DE914D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

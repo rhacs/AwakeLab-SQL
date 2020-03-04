@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19C42144-342D-7653-E5F1-CF6C8E458661" name="direccion">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:36:13 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="direccion_id" id="85F07BB1-B569-30E9-4EE1-13D069CDB5DC">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:36:19 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="6C6237E8-83BA-8AEA-D625-9284F468C272">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:36:32 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="C79A69C6-D86F-2139-AB23-375B4C96F02A">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:36:47 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="48C64499-146E-9E7E-BD01-75F382E9972D">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:37:00 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="7DE8A63D-788D-4EF3-B57C-A9506A8C07E3">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:37:14 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BCBC12D-5889-0F8A-412B-955B3AB945FC" name="direccion PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-04 02:36:30 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<engineerTo>
+<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85F07BB1-B569-30E9-4EE1-13D069CDB5DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
