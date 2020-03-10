@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60FBD508-5B90-8DFF-6627-1CE69168396F" name="direccion">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>19C42144-342D-7653-E5F1-CF6C8E458661</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="direccion_id" id="BCA353DD-F78B-9213-FAA9-5D57535B433A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>85F07BB1-B569-30E9-4EE1-13D069CDB5DC</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="FC4301C3-35B4-E6CF-D828-958B19FDF20B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>6C6237E8-83BA-8AEA-D625-9284F468C272</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="818B943B-BB27-26D1-DC03-C88D9D9CC504">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>C79A69C6-D86F-2139-AB23-375B4C96F02A</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="8F446E65-0220-38B6-8B5C-E718C9951A16">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>48C64499-146E-9E7E-BD01-75F382E9972D</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="0D111A44-49ED-18D3-5A45-CFA499B6A9E6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>7DE8A63D-788D-4EF3-B57C-A9506A8C07E3</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF53E0FE-9295-F8C0-F761-CD30B5D9AC1E" name="direccion_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>4BCBC12D-5889-0F8A-412B-955B3AB945FC</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCA353DD-F78B-9213-FAA9-5D57535B433A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

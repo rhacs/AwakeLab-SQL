@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A99DEB87-AAA4-4C23-4768-81DE6032FFBE" name="producto">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>F2FB8D47-D1C9-5406-00B5-CD49E98B042A</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="producto_id" id="BEC62DFC-3665-9F20-E3F5-065D88CDBF33">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>CF22021B-AACD-275C-A38C-4544C2BC01C5</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D30F4929-5CD4-CAA1-AF30-328DCC118282">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>A4F35543-1F1D-6F91-6BE9-7C81CB64B708</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="897E829B-930B-BBF6-D8DB-EB4C07326EB8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>E6FEE2D3-E242-5796-6DE7-D557A4612E0B</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria_id" id="D37811CD-15F1-5282-ACAF-3949C53F9DCA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>AF444B38-ABF2-BC0F-629B-ABA2D5D7803D</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB06C49-6B87-5330-B7AF-D376E63B4194" referredColumn="60D7546C-3B0F-993E-E2E5-41EF4C455455"/>
+</associations>
+</Column>
+<Column name="stock" id="9529829B-163F-4507-395B-079B9478B87A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>5FBC5510-FE2C-0411-FC78-AC0C26245E19</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52E19D58-3493-51E5-A53F-717B297EFAA9" name="producto_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>95216E4E-7F81-A764-0EA8-C2864C846EF4</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEC62DFC-3665-9F20-E3F5-065D88CDBF33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="057F1C8B-08BB-9DBB-42E0-95F1BC95F922" name="producto_categoria_producto_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>5FFA202A-C5DA-A306-9282-B5AC9D50E1B2</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37811CD-15F1-5282-ACAF-3949C53F9DCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

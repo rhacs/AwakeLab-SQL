@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E7F67E1-4F0C-3A31-B94A-BCB526283A85" name="proveedor">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>EA88EBBA-67CA-757D-D2D2-3A73D9DE914D</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proveedor_id" id="E47C785E-FB33-841E-BAA3-CB9F8700AE96">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>0A2C6130-AAF7-E123-0310-6CDC0ABDB940</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="721E21FA-994D-7FED-8AAA-9BFE824A0194">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>11122281-9ADC-7D29-14D3-C9CCFFA41EF3</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="web" id="E0C10ECA-26C7-66BF-B8C1-B5CA6D17B451">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>7435E168-BAFA-7E1C-7FED-46696AF0A072</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_id" id="689A645D-0D94-B915-076C-334D554C407F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>316F0E2C-F683-B7F0-FBC9-7212D0B9AFB2</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D93047D-2CC0-CA1B-295F-ABBE16E595A2" referredColumn="BCA353DD-F78B-9213-FAA9-5D57535B433A"/>
+</associations>
+</Column>
+<Column name="rut_id" id="96D1D9E0-51C8-676D-DEA0-00FA788D66DC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>85171B9E-60F8-B2D6-6040-0DB674DB03AF</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D8381DD-9F5F-6C06-7CF6-CE12BC49B64B" referredColumn="A9A8ECF7-9C07-DC04-659E-74D409AEB62F"/>
+</associations>
+</Column>
+<Column name="producto_id" id="CA9FFB2F-3013-8555-7D14-0AC365F38664">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>CD10876A-5FA5-B239-1427-393954FF5BCF</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6DFE05F-9F29-20A9-A7B4-50825E40DEFD" referredColumn="BEC62DFC-3665-9F20-E3F5-065D88CDBF33"/>
+</associations>
+</Column>
+<Column name="telefono_id" id="D5DB3B34-45A0-A7F2-EAD1-69A8B6FB20D5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>35BD6500-2A9B-D891-6A51-02EB58787307</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3534E683-71C0-0C28-F5D2-A4B7241F0D46" referredColumn="80EBC489-BE24-A509-5D4C-6F879EE3912A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67EF77B8-3196-2307-74BA-BC8B210524E7" name="proveedor_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>CCF7233B-2548-E6FA-0739-2C39A53850C1</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E47C785E-FB33-841E-BAA3-CB9F8700AE96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32AC44DF-CE30-F568-9CB6-7A3AB26C800F" name="proveedor__IDX">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>197159E1-2215-3829-42C4-151821F2416A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="689A645D-0D94-B915-076C-334D554C407F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="174E8B85-2CDE-3BFF-1D4D-64173BD20677" name="proveedor__IDXv1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2933FCA7-7AB9-E132-0851-F73CB996733B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="96D1D9E0-51C8-676D-DEA0-00FA788D66DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAE9035F-D160-1A85-32BB-C0010578EE6D" name="proveedor__IDXv2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>696796F7-72D1-DFC9-D646-2297FF1F6B9B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5DB3B34-45A0-A7F2-EAD1-69A8B6FB20D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DF4C1E9-7672-4F89-A6F3-212FC20421AF" name="proveedor_direccion_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>197159E1-2215-3829-42C4-151821F2416A</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689A645D-0D94-B915-076C-334D554C407F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA7D4E27-0044-B78C-434C-C7B5CC5CC824" name="proveedor_producto_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>DC486DDD-BDB1-68CE-B205-07CE0D2A034B</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA9FFB2F-3013-8555-7D14-0AC365F38664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6EEBB04-960E-D171-6F38-C18AD41357A2" name="proveedor_rut_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>2933FCA7-7AB9-E132-0851-F73CB996733B</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96D1D9E0-51C8-676D-DEA0-00FA788D66DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB15370D-0670-C99B-38BA-C19F3C941094" name="proveedor_telefono_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>696796F7-72D1-DFC9-D646-2297FF1F6B9B</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DB3B34-45A0-A7F2-EAD1-69A8B6FB20D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53E62205-DBE4-D7BC-29F8-4E5E0F8573F5" name="telefono">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>2BD1C087-4364-4918-DF30-7F0E0E30E702</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefono_id" id="80EBC489-BE24-A509-5D4C-6F879EE3912A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>351B3154-22F0-592D-91C4-DF8A6AB0C852</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="8E91BBFB-4C30-E7F5-7209-F3858F265460">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>441A7B8F-8F58-D364-9991-3FACA5EC0409</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id" id="9BA4C31B-6AC0-B39D-E9D1-E0EB6B5E1210">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>9FB70186-C3CE-B967-BE87-0F8CA3A795A3</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E7BF85-197B-C85E-B597-28382DADE711" referredColumn="B0E95C19-CCAB-70D9-BC17-FDB92F7F1ADB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CE73EC1-B595-F157-A3D2-B2080D5764F4" name="telefono_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>53CEA3B8-80A7-141F-1886-BD55154FD6E4</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80EBC489-BE24-A509-5D4C-6F879EE3912A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="508EBCE0-3375-452A-6E65-688FB3736445" name="telefono_cliente_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>C3E42273-BCA7-B2EC-1A99-6BD6544B9D65</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BA4C31B-6AC0-B39D-E9D1-E0EB6B5E1210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

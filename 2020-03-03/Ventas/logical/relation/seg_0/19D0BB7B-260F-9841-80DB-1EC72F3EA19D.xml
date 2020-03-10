@@ -3,12 +3,9 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:43:04 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <sourcePk>E397BD61-DBBF-158B-714F-122C2A56EF31</sourcePk>
 <dominantRole>644D2FCD-8BB9-112A-45F1-64C57EBC4AA3</dominantRole>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
@@ -16,5 +13,4 @@
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>B9E132DB-5D00-0652-0659-50820BB77E8B</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

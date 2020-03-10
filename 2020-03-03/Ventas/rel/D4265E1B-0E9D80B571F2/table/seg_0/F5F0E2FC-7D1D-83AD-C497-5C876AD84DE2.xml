@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5F0E2FC-7D1D-83AD-C497-5C876AD84DE2" name="detalle_venta">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>21A479A3-19F9-A3CE-6A3C-9BBA5074AE1A</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="detalle_id" id="A21F9D16-A068-FEF1-FADA-E5935042D25C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>E5CF794E-3B47-26D3-1416-84EDC4F21609</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="40F378FC-CA7C-4A4E-747D-71D99F9CE263">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>D2EEBB78-AD6A-4729-30F6-D2FCD7B6C5E9</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="EDD874E8-A4B8-4738-7848-1A9F3FF0DCA0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>C477EF5B-D676-B68D-4EF7-EFAFDB0B9233</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producto_id" id="DCBF57ED-678B-0683-ACE6-BB382C6D05D9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>640AC185-1466-6C11-9567-3BE4DB2C28A4</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CEA099-82A5-FC6F-461F-44F2887D064F" referredColumn="BEC62DFC-3665-9F20-E3F5-065D88CDBF33"/>
+</associations>
+</Column>
+<Column name="venta_id" id="753814AC-41A7-1EA4-A494-71E9163ED737">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>4322774B-7CA6-99DA-7C61-2B58502876EE</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD5B8F1C-266E-B67C-4E8C-42E06DA64E34" referredColumn="AB7B896D-6529-15E3-F1A1-CBFF25624767"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E85C74C2-2D1D-5531-769B-C70BAF584EE2" name="detalle_venta_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>65DC7CCF-5CDA-59F4-86DC-AA811000EBF7</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A21F9D16-A068-FEF1-FADA-E5935042D25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E22C8669-C9C5-3D0B-C1AC-1B2F9411982C" name="detalle_venta_producto_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>07FF49DE-F592-C8D4-D669-A08BD97880E2</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBF57ED-678B-0683-ACE6-BB382C6D05D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CEA6266-DB11-C080-47B0-D7E69D743B6C" name="detalle_venta_venta_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-04 18:20:02 UTC</createdTime>
+<generatorID>B03A581B-D329-EAC0-F3F3-4AC1C4F916D3</generatorID>
+<ownerDesignName>Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="753814AC-41A7-1EA4-A494-71E9163ED737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

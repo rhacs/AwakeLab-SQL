@@ -3,9 +3,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:44:37 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:44:45 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:45:05 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,9 +35,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:45:19 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,9 +47,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 02:45:04 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="2BC6F4CD-8A77-D4B4-400D-FCF0A51AA65F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F7C7B4F5-FDC8-735A-B568-3DDBF39A2166</attributeRef>

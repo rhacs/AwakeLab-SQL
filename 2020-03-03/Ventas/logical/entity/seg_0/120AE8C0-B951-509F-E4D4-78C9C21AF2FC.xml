@@ -3,9 +3,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 03:03:48 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 03:03:54 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 03:04:04 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -43,9 +34,6 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 03:04:39 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -56,66 +44,7 @@
 <createdTime>2020-03-04 03:05:28 UTC</createdTime>
 <generatorID>8B94B4D8-A9AB-E510-7AF9-8F67BDE255CF</generatorID>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <referedAttribute>D7CFFDD3-DBEC-7709-CEAA-D72A7E6C69F7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="direccion_id" id="5D49005A-536E-EAC6-AE57-851A21954B4A">
-<createdBy>Ricardo</createdBy>
-<createdTime>2020-03-04 03:05:28 UTC</createdTime>
-<generatorID>8B94B4D8-A9AB-E510-7AF9-8F67BDE255CF</generatorID>
-<ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
-<referedAttribute>D2E69831-8124-6879-E52C-FAE47B207C74</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rut_id" id="3E95F472-7213-D83F-61F4-5468B8B62E69">
-<createdBy>Ricardo</createdBy>
-<createdTime>2020-03-04 03:05:28 UTC</createdTime>
-<generatorID>8B94B4D8-A9AB-E510-7AF9-8F67BDE255CF</generatorID>
-<ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
-<referedAttribute>DFAFC09F-46C0-7EB4-B38E-02249B1DEC75</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="producto_id" id="175F3B80-950F-E5F2-AED6-84ADDB3CA60F">
-<createdBy>Ricardo</createdBy>
-<createdTime>2020-03-04 03:06:34 UTC</createdTime>
-<generatorID>195ABEF1-A4E8-F709-187C-0A11629DB565</generatorID>
-<ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
-<referedAttribute>CF22021B-AACD-275C-A38C-4544C2BC01C5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="categoria_id" id="B65EA506-5358-9C81-222B-80B79A5EFB4A">
-<createdBy>Ricardo</createdBy>
-<createdTime>2020-03-04 03:06:34 UTC</createdTime>
-<generatorID>195ABEF1-A4E8-F709-187C-0A11629DB565</generatorID>
-<ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
-<referedAttribute>AF444B38-ABF2-BC0F-629B-ABA2D5D7803D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -127,17 +56,9 @@
 <createdBy>Ricardo</createdBy>
 <createdTime>2020-03-04 03:04:03 UTC</createdTime>
 <ownerDesignName>Ventas</ownerDesignName>
-<engineerTo>
-<item key="1B607841-FD08-A978-33A3-5E6F311A7124" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>86B0D540-553C-B557-B0B9-7DFB89F0C91C</attributeRef>
-<attributeRef>BFDBF07C-0596-1AEF-5FE7-A6230090A986</attributeRef>
-<attributeRef>5D49005A-536E-EAC6-AE57-851A21954B4A</attributeRef>
-<attributeRef>3E95F472-7213-D83F-61F4-5468B8B62E69</attributeRef>
-<attributeRef>175F3B80-950F-E5F2-AED6-84ADDB3CA60F</attributeRef>
-<attributeRef>B65EA506-5358-9C81-222B-80B79A5EFB4A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
