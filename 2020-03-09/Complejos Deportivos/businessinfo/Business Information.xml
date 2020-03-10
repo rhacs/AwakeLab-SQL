@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F4BF3881-2452-0D88-35C1-3CCF9A5A4247">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 16:53:30 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2170A93-8598-5C21-9149-59187ED9FE5A" name="Equipamientos">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 18:45:04 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="equipamiento_id" id="55E7E280-C5B4-E3BB-9E03-83158DE3E345">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 18:45:11 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D61A1BC7-F500-030D-9321-DC51629D1D61">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 18:45:19 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="31C5C282-039A-2471-AC43-1B8A3453A1AB">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 18:45:39 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evento_id" id="66B9ED9F-B4BD-6551-79E0-12646C5851F9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 19:30:26 UTC</createdTime>
+<generatorID>5361D74F-9C50-4C90-166E-34411AE6B68F</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<referedAttribute>31C315CD-39C7-308C-97F5-D07D8AD64A84</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34CF8A56-901A-BBE1-09DA-209DC35661C4" name="Equipamientos PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 18:45:18 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55E7E280-C5B4-E3BB-9E03-83158DE3E345</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

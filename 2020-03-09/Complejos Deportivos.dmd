@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Complejos Deportivos" id="EE7AE255-C94E-1F4C-0F6C-5989F5B6B238" version="3.5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 16:53:29 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE7AE255-C94E-1F4C-0F6C-5989F5B6B238</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4B0DE1F-F6C8-C33B-D920-BD2E01519278" containerWithKeyObject="E4189309-A2C9-3DBA-DE00-370A3E91E7D9" localFKIndex="78D27339-41AE-5F5E-AC68-A96931767618" name="equip_eventos_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>5361D74F-9C50-4C90-166E-34411AE6B68F</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<referredTableLongName>Eventos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92107062-6FF2-05BD-4D20-32D59B09ED64</referredTableID>
+<keyObject>1298D6EB-384A-EAF6-FD06-99FBE5635B06</keyObject>
+<referredKeyID>1298D6EB-384A-EAF6-FD06-99FBE5635B06</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>evento_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

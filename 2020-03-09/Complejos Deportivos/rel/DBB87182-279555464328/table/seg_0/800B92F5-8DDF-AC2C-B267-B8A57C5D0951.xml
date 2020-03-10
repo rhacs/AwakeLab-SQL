@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="800B92F5-8DDF-AC2C-B267-B8A57C5D0951" name="Comisarios">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>5BB42247-8B79-8A6B-A02F-FAB37095656E</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="comisario_id" id="8C376D5D-1D7E-A4B7-08A3-796EB271C335">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>F2D3C491-08CC-58D9-0147-F429FD7E49E1</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DACEAD71-7FD2-DA53-E9B8-B33312B23F60">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>326CFA8E-373E-2E95-D8D8-97711C9F1C52</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarea" id="A9A1D59F-A44A-543C-FA0C-6E6E1BA359FA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>E1960E06-4E2A-35AC-E7DD-142FA38702CB</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eventos_evento_id" id="CE07B44D-4CDC-FB40-59BB-B68D3E1B928E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>66FCCF7A-AF89-0E31-7CCF-10AEAD52A1E4</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B559D25C-A332-86C8-FBD0-5A4DCD481F0B" referredColumn="B71AF061-59BB-B2C8-B4B9-E834CF40AC7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30F1EF4B-A3E1-7773-5E5B-5FACF537951A" name="comisarios_pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>E7ECD497-32EE-60DC-7415-7C0B8EA6F4C9</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C376D5D-1D7E-A4B7-08A3-796EB271C335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="446DF418-1BE0-66EE-5457-6B6B65461ECC" name="comisarios_eventos_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>10DDC4BD-A135-9ACF-7CAB-8C72913C03D2</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE07B44D-4CDC-FB40-59BB-B68D3E1B928E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

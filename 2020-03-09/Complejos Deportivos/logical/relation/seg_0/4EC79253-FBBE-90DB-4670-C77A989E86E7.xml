@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="complejos_eventos" directorySegmentName="seg_0" id="4EC79253-FBBE-90DB-4670-C77A989E86E7">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 19:31:33 UTC</createdTime>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<engineerTo>
+<item key="DBB87182-167A-752C-533B-279555464328" value="true"/>
+</engineerTo>
+<sourcePk>0398CE74-18EC-7918-981A-2F6B7DF505FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2850C60D-0659-AE1C-FFF8-A59B39374C9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88C42D9D-356C-9362-D53A-7849F9EC5BE9</targetEntity>
+<transferable>true</transferable>
+</Relation>

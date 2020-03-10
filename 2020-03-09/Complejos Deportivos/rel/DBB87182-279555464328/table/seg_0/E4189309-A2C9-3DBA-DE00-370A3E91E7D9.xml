@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4189309-A2C9-3DBA-DE00-370A3E91E7D9" name="Equipamientos">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>A2170A93-8598-5C21-9149-59187ED9FE5A</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equipamiento_id" id="50D629B9-85E7-94B1-C64C-214941DDE123">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>55E7E280-C5B4-E3BB-9E03-83158DE3E345</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2A074C41-4EB1-4E76-E85E-EABD07041A3F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>D61A1BC7-F500-030D-9321-DC51629D1D61</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="2EBAA965-6134-A106-D787-EB1D6E5E19DA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>31C5C282-039A-2471-AC43-1B8A3453A1AB</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eventos_evento_id" id="20CA23B7-D296-37C2-4ED9-8DEEEA1257D8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>66B9ED9F-B4BD-6551-79E0-12646C5851F9</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2D333722-DD37-DB2E-7914-3FDDA1A58B2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B0DE1F-F6C8-C33B-D920-BD2E01519278" referredColumn="B71AF061-59BB-B2C8-B4B9-E834CF40AC7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3027F88C-18FD-730B-17AA-5D220C98C201" name="equipamientos_pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>34CF8A56-901A-BBE1-09DA-209DC35661C4</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50D629B9-85E7-94B1-C64C-214941DDE123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78D27339-41AE-5F5E-AC68-A96931767618" name="equip_eventos_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-09 21:02:21 UTC</createdTime>
+<generatorID>5361D74F-9C50-4C90-166E-34411AE6B68F</generatorID>
+<ownerDesignName>Complejos Deportivos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20CA23B7-D296-37C2-4ED9-8DEEEA1257D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
