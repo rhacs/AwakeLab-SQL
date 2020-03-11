@@ -68,13 +68,14 @@ INSERT INTO direcciones VALUES (15, 'Avenida Departamental', '1390', 'San Miguel
 INSERT INTO direcciones VALUES (16, 'Avenida Costanera Sur', '3201', 'Quinta Normal', 'Santiago', 10);
 
 -- Pedidos
-INSERT INTO pedidos VALUES (1, TO_DATE('01-01-2020 12:53', 'DD-MM-YYYY HH24:MI'), 1, 2);
-INSERT INTO pedidos VALUES (2, TO_DATE('02/02/2020 10:23', 'DD-MM-YYYY HH24:MI'), 2, 3);
-INSERT INTO pedidos VALUES (3, TO_DATE('07/12/2019 13:44', 'DD-MM-YYYY HH24:MI'), 4, 4);
-INSERT INTO pedidos VALUES (4, TO_DATE('18/09/2019 15:49', 'DD-MM-YYYY HH24:MI'), 5, 7);
-INSERT INTO pedidos VALUES (5, TO_DATE('18/09/2019 18:21', 'DD-MM-YYYY HH24:MI'), 6, 8);
-INSERT INTO pedidos VALUES (6, TO_DATE('20/02/2020 06:00', 'DD-MM-YYYY HH24:MI'), 7, 11);
-INSERT INTO pedidos VALUES (7, TO_DATE('29/02/2020 09:54', 'DD-MM-YYYY HH24:MI'), 9, 15);
+INSERT INTO pedidos VALUES (1, TO_DATE('01-01-2020 12:53', 'DD-MM-YYYY HH24:MI'), 3, 2);
+INSERT INTO pedidos VALUES (2, TO_DATE('02/02/2020 10:23', 'DD-MM-YYYY HH24:MI'), 4, 3);
+INSERT INTO pedidos VALUES (3, TO_DATE('07/12/2019 13:44', 'DD-MM-YYYY HH24:MI'), 7, 4);
+INSERT INTO pedidos VALUES (4, TO_DATE('18/09/2019 15:49', 'DD-MM-YYYY HH24:MI'), 11, 7);
+INSERT INTO pedidos VALUES (5, TO_DATE('18/09/2019 18:21', 'DD-MM-YYYY HH24:MI'), 13, 8);
+INSERT INTO pedidos VALUES (6, TO_DATE('20/02/2020 06:00', 'DD-MM-YYYY HH24:MI'), 15, 9);
+INSERT INTO pedidos VALUES (7, TO_DATE('29/02/2020 09:54', 'DD-MM-YYYY HH24:MI'), 2, 1);
+INSERT INTO pedidos VALUES (8, TO_DATE('02-01-2020 09:10', 'DD-MM-YYYY HH24:MI'), 3, 2);
 
 -- Detalles
 INSERT INTO detalles VALUES (1, 2, 1, 1);
@@ -94,8 +95,49 @@ INSERT INTO detalles VALUES (14, 1, 6, 8);
 INSERT INTO detalles VALUES (15, 1, 7, 8);
 INSERT INTO detalles VALUES (16, 1, 7, 1);
 INSERT INTO detalles VALUES (17, 1, 7, 5);
+INSERT INTO detalles VALUES (18, 2, 8, 2);
 
 --
 -- Consultas a la base de datos
 --
 
+-- Mostrar la cantidad de fabricas que producen cada articulo
+SELECT
+    articulos.articulo_id AS ID,
+    articulos.nombre AS Nombre,
+    COUNT(fabricas.articulo_id) AS Fabricas
+FROM articulos
+    LEFT JOIN fabricas ON articulos.articulo_id = fabricas.articulo_id
+GROUP BY
+    articulos.articulo_id,
+    articulos.nombre
+ORDER BY
+    ID;
+
+-- Contar la cantidad de pedidos que realizo cada Cliente
+SELECT
+    clientes.cliente_id AS ID,
+    clientes.nombre AS Nombre,
+    COUNT(pedidos.cliente_id) AS Pedidos
+FROM clientes
+    LEFT JOIN pedidos ON clientes.cliente_id = pedidos.cliente_id
+GROUP BY
+    clientes.cliente_id,
+    clientes.nombre
+ORDER BY
+    ID;
+
+-- Contar la cantidad de articulos en el total de pedidos realizados por cada Cliente
+SELECT
+    clientes.cliente_id AS ID,
+    clientes.nombre AS Nombre,
+    COUNT(distinct pedidos.pedido_id) AS Pedidos,
+    COUNT(detalles.detalle_id) AS Articulos
+FROM clientes
+    LEFT JOIN pedidos ON clientes.cliente_id = pedidos.cliente_id
+    LEFT JOIN detalles ON pedidos.pedido_id = detalles.pedido_id
+GROUP BY
+    clientes.nombre,
+    clientes.cliente_id
+ORDER BY
+    ID;
