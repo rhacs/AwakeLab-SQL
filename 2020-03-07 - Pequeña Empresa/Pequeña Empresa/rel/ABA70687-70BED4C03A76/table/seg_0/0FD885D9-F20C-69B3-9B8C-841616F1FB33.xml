@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FD885D9-F20C-69B3-9B8C-841616F1FB33" name="Direcciones">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>5E219576-C275-9A5D-6E55-C6D18D3EFFF9</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="direccion_id" id="BBD0521A-5CE7-EBF6-16ED-E7540A9C621F">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>8CE81A96-D9B4-395B-5785-1FA878004072</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="B039E001-B3B0-3E4E-6D7A-1B437A0256E0">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>546EA3C9-C040-6B81-E7FF-66B8305AE6F2</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="CA628543-9F2C-1E73-EF05-19B12C3F2040">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>5E31DE37-3C62-801E-7181-0BA601AA38D8</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="B9D3B0BD-0684-467F-8FFA-A818304F12CE">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>A3065631-6A83-E60C-E831-6F30E49D23BD</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="7979CD51-1057-2960-36F7-FA3AD798718E">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>E1325EF1-7A7A-97C8-2600-015521C077C3</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cliente_id" id="F4AAE249-58D2-7CBB-607F-7C4CB5D84DB9">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>4C8B4AAC-7E54-1E8F-860E-E09C3E75B279</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC4C59B6-FB51-0185-8B36-D36966E17674" referredColumn="3145E0E1-567A-B904-AB73-4BB812DDF99A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3503B61-8A9C-16B9-3955-D04D4E0DABF2" name="direcciones_pk">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>1E9DA822-3097-8B86-4791-20DFFDAD0CDA</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD0521A-5CE7-EBF6-16ED-E7540A9C621F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE81CBA5-0EB9-0694-BD2B-00BCE37E22BD" name="direccion_cliente">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>F9660F7C-7DA7-A807-175A-AFA6329EC6F1</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4AAE249-58D2-7CBB-607F-7C4CB5D84DB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

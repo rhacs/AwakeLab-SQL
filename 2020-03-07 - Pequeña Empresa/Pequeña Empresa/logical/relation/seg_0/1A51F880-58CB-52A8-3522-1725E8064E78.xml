@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="articulo_fabrica" directorySegmentName="seg_0" id="1A51F880-58CB-52A8-3522-1725E8064E78">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:44:01 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<sourcePk>E9A357FD-2119-03C5-9352-C3F8EE5F85A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09EDF96F-D5AB-BA7F-E28F-37C6CF9B2140</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C602496-BDD8-A68D-ECAF-61E7243B9D24</targetEntity>
+<transferable>true</transferable>
+</Relation>

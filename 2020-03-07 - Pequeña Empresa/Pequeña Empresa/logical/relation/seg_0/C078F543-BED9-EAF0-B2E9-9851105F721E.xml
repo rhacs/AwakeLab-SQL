@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedidos_detalle" directorySegmentName="seg_0" id="C078F543-BED9-EAF0-B2E9-9851105F721E">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:41:51 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<sourcePk>7005F318-01B5-18A7-D66D-D2DB7E14AF3E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F5DCA2E-2901-8790-D2FF-BB28723BA642</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7E3FDF4-88A4-1D12-9128-2179A6284037</targetEntity>
+<transferable>true</transferable>
+</Relation>

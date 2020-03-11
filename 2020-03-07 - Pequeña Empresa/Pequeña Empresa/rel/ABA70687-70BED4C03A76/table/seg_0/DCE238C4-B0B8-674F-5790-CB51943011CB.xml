@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCE238C4-B0B8-674F-5790-CB51943011CB" name="Articulos">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>09EDF96F-D5AB-BA7F-E28F-37C6CF9B2140</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="articulo_id" id="C8178009-B15C-2903-CDDB-ECC7CC6D1559">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>B1B5E503-F834-3B3E-1BE5-FF2E5E0D1B6E</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4007A390-6C5A-831D-BF79-72B836C5BAE2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>0DDC8A3C-0D80-A832-D9FC-59F1542058CE</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="057B9A72-1500-D8ED-A45C-E4BD09DD9583">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>DD407F2A-CC30-AE01-4580-A59707D6DD92</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EE79481-5435-CA9C-8C88-AC692FA20C51" name="articulos_pk">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:46:10 UTC</createdTime>
+<generatorID>E9A357FD-2119-03C5-9352-C3F8EE5F85A1</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8178009-B15C-2903-CDDB-ECC7CC6D1559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

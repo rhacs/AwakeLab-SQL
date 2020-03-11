@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Pequeña Empresa" id="F5818BA3-AB58-40A7-E0F2-1ADE0CC59F27" version="3.5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:30:29 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F5818BA3-AB58-40A7-E0F2-1ADE0CC59F27</designId>
+</OSDM_Design>

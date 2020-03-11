@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E219576-C275-9A5D-6E55-C6D18D3EFFF9" name="Direcciones">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:34:28 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="direccion_id" id="8CE81A96-D9B4-395B-5785-1FA878004072">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:34:33 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="546EA3C9-C040-6B81-E7FF-66B8305AE6F2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:34:44 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="5E31DE37-3C62-801E-7181-0BA601AA38D8">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:35:02 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="A3065631-6A83-E60C-E831-6F30E49D23BD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:35:17 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="E1325EF1-7A7A-97C8-2600-015521C077C3">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:35:27 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="4C8B4AAC-7E54-1E8F-860E-E09C3E75B279">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:36:14 UTC</createdTime>
+<generatorID>F9660F7C-7DA7-A807-175A-AFA6329EC6F1</generatorID>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<referedAttribute>2BD7BE1A-FCAB-1E9C-29FE-8E34E3B1B4D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E9DA822-3097-8B86-4791-20DFFDAD0CDA" name="Direcciones PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:34:42 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CE81A96-D9B4-395B-5785-1FA878004072</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

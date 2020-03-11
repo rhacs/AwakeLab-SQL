@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9825EB47-8E71-1AA4-D64D-C89E8A265FE0" name="Clientes">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:31:51 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="2BD7BE1A-FCAB-1E9C-29FE-8E34E3B1B4D5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:32:16 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="86E61EDA-8505-DE36-6272-D32343944775">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:32:31 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credito" id="E76FDEF8-A896-50E0-D1CF-97562A9244F5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:32:54 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="E3F4DB31-94AC-B933-7CDE-198B3FA10009">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:33:41 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="792D03BD-A06D-4DDA-2B68-E7F3534022C1" name="Clientes PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 02:32:30 UTC</createdTime>
+<ownerDesignName>Pequeña Empresa</ownerDesignName>
+<engineerTo>
+<item key="ABA70687-BB88-3E6B-0B17-70BED4C03A76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BD7BE1A-FCAB-1E9C-29FE-8E34E3B1B4D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
