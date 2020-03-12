@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="venta_producto" directorySegmentName="seg_0" id="542C9A8D-C488-5A1E-5214-EEA0E542F853">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:28:34 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>24D949CC-F530-E40D-CEA5-833BDE1A1A42</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDEF3C26-AC2C-99B7-0685-499A998E1525</targetEntity>
+<transferable>true</transferable>
+</Relation>

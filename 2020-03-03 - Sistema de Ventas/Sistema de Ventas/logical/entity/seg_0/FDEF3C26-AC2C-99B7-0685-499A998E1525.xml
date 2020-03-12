@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDEF3C26-AC2C-99B7-0685-499A998E1525" name="Ventas">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:24:09 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="venta_id" id="ABEDA1B8-45D5-848C-4E0A-295CF4F00433">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:24:14 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="C849ABD6-E356-0AB9-57FE-BA1EBB11EDA2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:24:27 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="12CCF546-DC27-325B-E378-11034174578A">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:25:09 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="00A432B7-E193-02AD-3E68-140F21E21EBF">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:16 UTC</createdTime>
+<generatorID>026C408F-DFB6-918A-B80A-A0C0E3AB0566</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<referedAttribute>0EA9ABCD-C37A-9BF9-D563-D575D91461D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7440D5AE-75C1-F2F0-EC28-F3B00B521341" name="Ventas PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:24:27 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABEDA1B8-45D5-848C-4E0A-295CF4F00433</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

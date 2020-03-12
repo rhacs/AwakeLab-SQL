@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24D949CC-F530-E40D-CEA5-833BDE1A1A42" name="Productos">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:18:50 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="producto_id" id="8AB3E51D-D115-E108-A743-0C4188EC3A83">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:19:00 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="20EA192E-0ECF-40BB-F985-CE682C1B9A3F">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:19:10 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="D70458FF-A40A-7E29-A561-03C35E0737CC">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:19:38 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="0A604D9D-29C3-245C-16F6-20D583C7B48A">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:19:52 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria_id" id="8B3DB193-BD3F-68CF-9143-743C608216A5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:21:57 UTC</createdTime>
+<generatorID>24AEA4E8-CE73-AC6A-8A6E-FDED430B5FAB</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<referedAttribute>DD77D712-A645-8FAE-2F56-ECC96E31C099</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="proveedor_id" id="1CED1EF4-A833-06C6-91AE-6DBF61FC1AF3">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:23:21 UTC</createdTime>
+<generatorID>A0E39D00-28CA-BA51-089D-4D506005066D</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<referedAttribute>93468C70-F869-B039-6A79-8530B8653ABB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72A642D6-0D7C-1065-C732-C3399CD4CE95" name="Productos PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:19:09 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<engineerTo>
+<item key="434AC655-97EC-CB11-E9C4-163F14DF3AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AB3E51D-D115-E108-A743-0C4188EC3A83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

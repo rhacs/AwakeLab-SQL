@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B8D0704-B98F-1C64-A212-8CC06B15B28E" name="Proveedores">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>E4D4857C-14A2-D591-3E08-AA8DE166284B</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proveedor_id" id="1371C531-5029-004D-DE0B-6C5BEDBAFE19">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>93468C70-F869-B039-6A79-8530B8653ABB</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="7EF350C3-4DCD-25CF-B8B3-81AAD6CA30A9">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>9DDBEA39-336E-950A-43E5-9A8BF51F8432</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5CA83FB0-0215-F587-F3DA-1E9A28C510F2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>0EDFC756-E120-27BC-5D4B-ED2CE7E03F0E</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="91F49506-A3E4-F4A2-263A-4C67366A7DC6">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>7AE0774E-37C1-4586-4F00-195CBB24C765</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="B2210679-A905-FCD5-2D04-3A91FEB155F8">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>D3C9BB7B-95B3-010F-5C73-B59073E8BE9F</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="3CBDD6E3-7003-32E8-DEC2-558A122D48A6">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>F0365DAC-03C2-14D5-7790-E259C459A770</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCF233E4-7559-476D-2214-E5C5D4A6FA03" name="Proveedores_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>BC36FAAA-46D7-47F1-9EDE-6DE328452414</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1371C531-5029-004D-DE0B-6C5BEDBAFE19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

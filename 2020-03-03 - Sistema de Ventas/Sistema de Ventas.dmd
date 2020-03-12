@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sistema de Ventas" id="DE3AE8BD-67CC-5443-5B57-6C5938294E90" version="3.5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 22:55:24 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DE3AE8BD-67CC-5443-5B57-6C5938294E90</designId>
+</OSDM_Design>

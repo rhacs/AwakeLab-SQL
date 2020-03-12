@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="408E0646-78E6-3E81-6821-6A1265A93999" name="Telefonos">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>CCEE4E88-1877-822F-FD6A-324773DE9DCD</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefono_id" id="0C7FC601-F1CF-2AC3-3B79-E3A6E7DD27AB">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>CB8CD563-6350-6ABE-3BD2-0C0BC58AB8B6</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_area" id="4AD6A7A1-7B86-717D-4293-4DEF96EBC9AB">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>B13E886C-D7B6-DC15-DBA2-C2DF1F7321FE</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="626C564F-5F1B-6BAE-C31E-B0157E805976">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>07417683-6D5A-0B6A-10D7-57937EC02402</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id" id="F21BAE77-F997-C0F2-A716-4DA6F3F4DEC4">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>1084F4AA-C60B-428E-B4F6-00416E34DD3D</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E550A20-7E0C-8D56-8AD6-12F2E3773CD5" referredColumn="20306594-66E4-6976-5FAC-342CD89C7886"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B90C0E83-F20A-ACBC-BE7F-548F526CBD1B" name="Telefonos_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>520B2913-5B44-94A9-5CB1-0325E1A63ACE</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C7FC601-F1CF-2AC3-3B79-E3A6E7DD27AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="995ADF57-013A-3CF8-1813-A59FF4EAFCD7" name="Clientes_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>9F2081D7-09C0-B784-0989-A9695E0290A9</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21BAE77-F997-C0F2-A716-4DA6F3F4DEC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

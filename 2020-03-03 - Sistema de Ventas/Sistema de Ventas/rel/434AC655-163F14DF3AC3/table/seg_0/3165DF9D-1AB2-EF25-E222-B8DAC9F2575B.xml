@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3165DF9D-1AB2-EF25-E222-B8DAC9F2575B" name="venta_producto">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="producto_id" id="76AC233D-3CE3-43B5-BA3F-38EC07CFF300">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F7D54A3-1E0B-9E7F-13FD-77870BD80394" referredColumn="669EC527-49CC-C515-BA11-725946A1F367"/>
+</associations>
+</Column>
+<Column name="venta_id" id="D1B75D7E-36E6-6AED-7E84-DA6D7557701D">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C45051CD-62C8-B0BE-51F5-60DF795ABEE9" referredColumn="30E695DA-E523-00ED-C1A0-BE416B6969C5"/>
+</associations>
+</Column>
+<Column name="cantidad" id="4449C7A0-0F51-FCF9-5807-0AE27FCFB580">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-12 02:14:00 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE8CEF2E-9B25-928A-3205-B3FA59B995E0" name="venta_producto_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AC233D-3CE3-43B5-BA3F-38EC07CFF300"/>
+<colUsage columnID="D1B75D7E-36E6-6AED-7E84-DA6D7557701D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A9A8D1-132F-3339-3129-8D05FE726F98" name="Productos_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>542C9A8D-C488-5A1E-5214-EEA0E542F853</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AC233D-3CE3-43B5-BA3F-38EC07CFF300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18B1345B-49A4-00CF-12E8-985FA282A196" name="Ventas_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2020-03-11 23:29:56 UTC</createdTime>
+<generatorID>542C9A8D-C488-5A1E-5214-EEA0E542F853</generatorID>
+<ownerDesignName>Sistema de Ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1B75D7E-36E6-6AED-7E84-DA6D7557701D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
