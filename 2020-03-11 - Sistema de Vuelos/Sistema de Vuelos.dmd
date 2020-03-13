@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sistema de Vuelos" id="1E1D4FD3-01D0-9BD3-6024-75CA30EE02D2" version="3.5">
-<createdBy>Alumno</createdBy>
-<createdTime>2020-03-11 19:24:39 UTC</createdTime>
-<ownerDesignName>Sistema de Vuelos</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>1E1D4FD3-01D0-9BD3-6024-75CA30EE02D2</designId>
-</OSDM_Design>

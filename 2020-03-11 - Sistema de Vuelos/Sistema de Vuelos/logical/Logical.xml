@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="46CEFAEB-402F-EF91-F870-325EFACAF943" mainViewID="C378996A-3831-1290-66E5-B8282B464FC9">
-<createdBy>Alumno</createdBy>
-<createdTime>2020-03-11 19:24:39 UTC</createdTime>
-<ownerDesignName>Sistema de Vuelos</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
