@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3382EB0D-14CF-FD3C-9DA7-D792D9039F7F" name="Cursos">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>13B74EA7-B977-925D-1D32-9E51D3F3D46E</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="curso_id" id="B40C2952-A461-404F-B14B-CF1A33A3F12A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>DCBE6DC1-FB1A-B10F-9BD8-E18A901985F9</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa" id="ECF6B3DD-9EA8-33E2-3CF9-E70DB916E9A3">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>63019B6A-71A9-1F79-2838-1C8ACE6BAD32</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_entrada" id="AFADF36C-ED67-68E3-23EB-E7F49383C05C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>9C2ABBAE-CCC5-AC72-B6F9-B96FB104E6CF</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_salida" id="22BC21D9-7E42-3775-44B0-27FCBDFA3D44">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>4BF7F195-B151-8292-541B-A1B39F0F79CA</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49A59E56-10D3-FC2A-A01D-141AEC47F415" name="Cursos_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>BDFA278D-82EB-7916-D181-2A8A291DF2B5</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40C2952-A461-404F-B14B-CF1A33A3F12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

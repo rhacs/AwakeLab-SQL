@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4736E0E-3652-23CD-E6BC-A9C9920F574D" name="Alternativas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>712390DC-3F39-63E8-5469-C8C988E8AF7C</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="alternativa_id" id="1FAFBD33-8CF7-911E-207B-BAF6CAB0494D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>43FE4AFB-D158-AA6C-E1CF-52227EC72F10</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="14C9366E-F412-A0B9-8590-21B3BE2CE42B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>6C6815FA-7FD2-C523-033D-9808AB4385DB</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta" id="57AE821F-A185-7B2A-D013-4898D3AB7A48">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>AF69207E-88C1-0A76-1768-26B1E32E1126</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentaje" id="4E1AD6F8-3C98-DE79-4231-074C0B9B88CA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>C248566D-1D82-E988-CFCB-421D86E043EB</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pregunta_id" id="85F1DD9C-0C38-2B83-EBCD-BF29DF4C4C2A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>E62C2080-E2E4-EAD1-893D-924C331DC68B</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F417966-F03F-40DA-B12A-17C54E406241" referredColumn="F7829A85-F49C-4B1F-1E03-242D2628684F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF9F10E0-9F95-4988-CFAF-0CF04C8B9387" name="Alternativas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>C114128C-D4F1-4EF4-A2F5-428156A6245D</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAFBD33-8CF7-911E-207B-BAF6CAB0494D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="550E538F-2D70-2D1C-DE0F-42140A083731" name="Preguntas_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:24 UTC</createdTime>
+<generatorID>F4F1BA0B-BE87-1FA3-19B8-FFDF0FD9AA91</generatorID>
+<ownerDesignName>Evaluaciones</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F1DD9C-0C38-2B83-EBCD-BF29DF4C4C2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

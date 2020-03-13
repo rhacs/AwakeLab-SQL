@@ -81,3 +81,15 @@ WHERE
 ORDER BY
     sedes.sede_id,
     COMISARIO_NOMBRE;
+
+-- Mostrar el presupuesto que se maneja por evento
+SELECT
+    eventos.evento_id AS ID,
+    eventos.nombre AS Nombre,
+    eventos.fecha AS Fecha,
+    sedes.presupuesto AS Presupuesto
+FROM eventos
+    LEFT JOIN complejos ON eventos.complejos_complejo_id = complejos.complejo_id
+    LEFT JOIN sedes ON complejos.sedes_sede_id = sedes.sede_id
+ORDER BY
+    ID;
