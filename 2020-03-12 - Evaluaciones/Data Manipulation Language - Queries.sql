@@ -159,7 +159,7 @@ SELECT * FROM notas_normalizadas;
 -- mínima es un 4,0).
 SELECT * FROM notas_normalizadas WHERE calificacion >= 4;
 
--- P8: Nota promedio de los estudiantes de un curso determinado, para una evaluación de terminada.
+-- P8: Nota promedio de los estudiantes de un curso determinado, para una evaluación determinada.
 SELECT
     cursos.curso_id AS id,
     cursos.programa AS curso,
